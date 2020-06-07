@@ -140,7 +140,7 @@ function wc_sinpecr_init() {
 					'type'        => 'textarea',
 					'description' => 'Instrucciones para el Cliente',
 					'default'     => __( 'Haga click en el botón de <strong>SU banco</strong> para pagarle a comercio mediante SINPE Móvil. ( Mensaje SMS ) <br> 
-					Al hacer click, se abrirá automáticamente una plantilla para enviar un SMS al No. SINPE del banco de SU elección.', 'woocommerce' ),
+					Al hacer click, se abrirá automáticamente una plantilla para enviar un SMS al No. SINPE del banco de SU elección.', 'wc_sinpecr_gateway' ),
 					'desc_tip'    => true,
 				),
 				'sinpe_mobile'    => array(
